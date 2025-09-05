@@ -11,6 +11,7 @@ import TodayClasses from './chain/TodayClasses';
 import PreClass from './chain/PreClass';
 import LiveVideo from './chain/LiveVideo';
 import PostClass from './chain/PostVid';
+import CourseDetails from './chain/CourseDetails';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -36,6 +37,7 @@ root.render(
                <Route path='/pre' element={ <PreClass /> }/>
                <Route path='/vid' element={ <LiveVideo /> }/>
                <Route path='/post' element={ <PostClass /> }/>
+                <Route path='/cd' element={ <CourseDetails /> }/>
           </Routes>
       </Router>
   </React.StrictMode>

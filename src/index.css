@@ -459,7 +459,231 @@ div.video_stats {
   margin-left: -45% !important;
  }
 }
+/** course details **/
+.gradient_contain {
+  color: #fff;
+  background: linear-gradient(to top right, #230721, #5A143B, #310772, #240556) ;
+  
+}
+.gradient_contain .col-sm-3 {
+    background-color: rgba(200, 200, 200, 0.1);
+    
+}
+.gradient_contain .test {
+  margin-top: 10%;
+  transform: scale(0.7);
+  margin-left: 10%;
+}
+.navigation {
+  
+   margin-left: 15%;
+   margin-top: 4%;
+   padding: 2.5%;
+   border-radius: 10px;
+   width: 70%;
+}
+.navigation .temp {
+  margin-left: 3%;
+  margin-top: 1%;
+  position: absolute;
+}
+.navigation .nav_img {
+  transform: scale(0.7);
+}
+.actively {
+  background: #de3561;
+}
+.premium_tag {
+ background-color: rgba(200, 200, 200, 0.1);
+ margin-left: 15%;
+ width: 80%;
+ margin-top: 5%;
+ border-radius: 17px;
+}
+.premium_tag img {
+  display: block;
+  margin: auto;
+}
+.premium_tag p {
+  margin-top: -10%;
+  text-align: center;
+  
+}
+.premium_tag nav {
+  font-size: 10px;
+  display: block;
+  margin: auto;
+  color: #ccc;
+  width: 70%;
+  margin-top: -3%;
+}
+.premium_tag button {
+  margin-top: -4%;
+  font-size: 10px;
+  display: block;
+  margin: auto;
+  border: hidden;
+  background: white;
+  color: #221a2f;
+  border-radius: 11px;
+  width: 40%;
+  font-weight: 500;
+  padding: 3%;
+}
 
+@media (max-width: 768px) {
+  .gradient_contain .col-sm-3 {
+    display: none;
+  }
+}
+.gradient_contain .mains {
+  margin-top: 2%;
+}
+.mains #back {
+  margin-top: -3.5%;
+  position: absolute;
+  margin-left: 4%;
+}
+.gradient_contain .layer {
+  display: flex;            /* use flex layout */
+  white-space: nowrap;      /* prevent wrapping */
+  justify-content: space-between; /* even spacing between items */
+  align-items: center;      /* vertically center items if needed */
+}
+.layer .student_count {
+  background-color: rgba(200, 200, 200, 0.1);
+  padding: 3%;
+  border-radius: 14px;
+  
+}
+.layer span {
+  font-size: 13px;
+  font-weight: 100;
+}
+.gradient_contain .lft {
+ 
+}
+.gradient_contain .lft .stash {
+  max-width: 100%;       /* don't exceed parent width */
+  height: auto;          /* maintain aspect ratio */
+  transform: scale(0.9);
+  
+  box-sizing: border-box;
+  display: block;        /* avoid inline whitespace issues */
+}
+.lft h5 {
+  margin-left: 5%;
+}
+.details_nav #instructor {
+  font-size: 13px;
+  color: #bfbbc5;
+
+  margin-left: 5%;
+}
+nav #desc {
+  display: block;
+  margin: auto;
+  width: 90%;
+  color: #bfbbc5;
+  font-size: 12px;
+  margin-top: 1%;
+}
+.lessons .panell {
+background-color: rgba(200, 200, 200, 0.1);
+  padding: 3%;
+  border-radius: 14px;
+  margin-top: 2%;
+  width: 100%;
+}
+.progress-container {
+  height: 4px;
+  width: 100%;
+  background-color: #e0e0de;
+  border-radius: 50px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress-filler {
+  height: 100%;
+  background-color: #de3561;
+  border-radius: inherit;
+  text-align: right;
+  transition: width 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.progress-label {
+  user-select: none;
+}
+
+.progress_tp {
+    font-size: 12px;
+    color: #bfbbc5;
+}
+.course_card {
+  margin-top: 5%;
+  padding: 4%;
+  background: #170335;
+  width: 95%;
+  border-radius: 10px;
+}
+.course_card h5 {
+  font-size: 12px;
+}
+.panell .title {
+  margin-top: 0.2%;
+  margin-left: 1%;
+  position: absolute;
+}
+.course_card img {
+  transform: scale(0.8);
+}
+.course_card .null {
+  display: block;
+  white-space: nowrap;
+   display: flex;     /* or inline-flex */
+  gap: 20px;
+}
+.course_card .null span:nth-of-type(1) {
+    position: relative;
+    color:#ed5a80;
+
+   
+}
+.course_card .null span:nth-of-type(2) {
+    color: #a2a0a0;
+    font-size: 12px;
+}
+.course_card .null span:nth-of-type(3) {
+    background: #330679;
+    padding: 15%;
+    font-size: 12px;
+    color: #e0e0de;
+    border-radius: 15px;
+    margin-top: -10%;
+}
+.lasting{
+    background: linear-gradient(to bottom, #370c2b, #0a0118);
+ 
+}
+@media (max-width: 768px) {
+  #back {
+    display: none !important;
+  }
+  .layer {
+    display: none !important;
+  }
+  .lessons {
+    margin-top: 10%;
+  }
+  .mob_x{ display: none !important;}
+}
 body {
   font-family: 'Roboto', sans-serif !important;
   
